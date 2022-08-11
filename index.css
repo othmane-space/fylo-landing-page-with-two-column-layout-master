@@ -99,7 +99,7 @@ main::before{
 position: absolute;
 content: '';
 top: -80px;left: 0;right: 0;bottom: 0;
-background-image:url(/fylo-landing-page-with-two-column-layout-master/images/bg-curve-desktop.svg) ;
+background-image:url(/images/bg-curve-desktop.svg) ;
 z-index: -1;
 }
 .top-main{
