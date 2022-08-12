@@ -212,6 +212,10 @@ color: rgb(218, 205, 205);
 }
 .right-bottom-main{
  width: 40%;
+ display:flex;
+ flex-direction:column;
+ justify-content:center;
+ align-items:center;
 }
 .input-main input{
  width: 100%;
@@ -219,8 +223,8 @@ color: rgb(218, 205, 205);
 }
 .right-bottom-main button{
  font-weight: bold;
- padding-left: 2rem;
- padding-right: 2rem;
+ padding-left: 1.5rem;
+ padding-right: 1.5rem;
 }
 footer{
  padding: var(--padding);
@@ -364,7 +368,6 @@ li:hover{
  justify-content: center;
  align-items: center;
  text-align: center;
- 
  }
  .left-bottom-main{
   display: flex;
