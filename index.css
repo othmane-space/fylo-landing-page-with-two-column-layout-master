@@ -6,6 +6,7 @@ box-sizing: border-box;
 --padding1:3em;
 --padding2:6em;
 --padding:var(--padding1) var(--padding2);
+ overflow:hidden;
 }
 body{
  font-family: Arial,sans-serif;
@@ -14,6 +15,7 @@ header{
  display: flex;
  flex-direction: column;
  padding: var(--padding);
+ width:100%
 }
 .top-header{
  display: flex;
@@ -28,6 +30,7 @@ li{
  margin-right: 2rem;
  transition: .2s;
  cursor: pointer;
+ width:max-content;
 }
 li:last-child{
  margin: 0;
@@ -94,6 +97,7 @@ main{
  display: flex;
  flex-direction: column;
  --padding1:4em;
+ width:100%;
 }
 main::before{
 position: absolute;
@@ -206,7 +210,6 @@ line-height: 1.25rem;
 color: rgb(218, 205, 205);
 }
 .right-bottom-main{
- 
  width: 40%;
 }
 .input-main input{
@@ -224,6 +227,7 @@ footer{
  flex-direction: column;
  background-color: rgb(9, 9, 66);
  justify-content: center;
+ width:100%;
 }
 .main-footer{
  margin-top: 2rem;
@@ -297,10 +301,10 @@ li:hover{
 }
 @media (max-width:1170px){
  .right-top-main svg{
-  width: 400px;
+  width: 300px;
  }
  .main-header svg{
-  width: 400px;
+  width: 300px;
  }
 }
 @media (max-width:1020px){
