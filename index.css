@@ -6,7 +6,6 @@ box-sizing: border-box;
 --padding1:3em;
 --padding2:6em;
 --padding:var(--padding1) var(--padding2);
- overflow:hidden;
 }
 body{
  font-family: Arial,sans-serif;
@@ -354,7 +353,7 @@ li:hover{
 }
 @media (max-width:950px){
  *{
-  --padding2:1.5em;
+  --padding2:1em;
   }
 }
 @media (max-width:850px) {
