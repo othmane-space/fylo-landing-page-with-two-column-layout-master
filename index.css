@@ -297,10 +297,10 @@ li:hover{
 }
 @media (max-width:1170px){
  .right-top-main svg{
-  width: 400px;
+  width: 300px;
  }
  .main-header svg{
-  width: 400px;
+  width: 300px;
  }
 }
 @media (max-width:1020px){
