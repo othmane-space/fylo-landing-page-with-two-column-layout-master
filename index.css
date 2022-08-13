@@ -251,6 +251,7 @@ margin-right: 1rem;
 .info .white{
  color: white;
  width: max-content;
+ height:max-content;
  font-size: .85rem;
 }
 .mail{
