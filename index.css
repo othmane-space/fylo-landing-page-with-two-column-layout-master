@@ -350,7 +350,7 @@ li:hover{
 }
 @media (max-width:950px){
  *{
-  --padding2:3em;
+  --padding2:1.5em;
   }
 }
 @media (max-width:850px) {
