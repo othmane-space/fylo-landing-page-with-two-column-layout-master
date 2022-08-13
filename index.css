@@ -28,6 +28,7 @@ li{
  margin-right: 2rem;
  transition: .2s;
  cursor: pointer;
+ width:max-content;
 }
 li:last-child{
  margin: 0;
