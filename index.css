@@ -10,6 +10,9 @@ box-sizing: border-box;
 body{
  font-family: Arial,sans-serif;
 }
+.head-text,.text2,.text1,.white{
+ font-size:.8rem;
+}
 header{
  display: flex;
  flex-direction: column;
